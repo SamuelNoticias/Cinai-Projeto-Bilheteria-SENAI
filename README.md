@@ -9,7 +9,7 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 5. Apresentar o Mapa de Poltronas Ocupadas/Livres
 
 ## Processos
-1. Exibição gráfica em HTML e CSS/
+1. Exibição gráfica em HTML e CSS\
    Por meio do HMTL juntamente com o CSS e nosso poderoso Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva
 
 ## Exigências de Aplicação
