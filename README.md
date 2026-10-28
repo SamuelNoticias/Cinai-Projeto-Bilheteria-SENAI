@@ -8,6 +8,8 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 4. Permitir o Cancelamento/Estorno de Compras Recentes
 5. Apresentar o Mapa de Poltronas Ocupadas/Livres
 
+### 
+
 ### Exigências de Aplicação
 | Estrutura     | Mapeamento do Sistema |
 | --------------------- |:-------------:|
@@ -17,3 +19,8 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 |   Vetor (1D)          |Vetor de categorias de ingressos (Inteira, Meia-Entrada, VIP) e taxas/valores associados.|
 |   Busca & Ordenação   |Ordenação do relatório de vendas por valor ou nome do cliente (QuickSort/Bubble). Busca por código do e-ticket/CPF do comprador (Linear/Binária).|
 |   Persistência        |Gravação e leitura da matriz de assentos e bilhetes vendidos em arquivos (.csv ou .txt) para garantir o estado ao fechar e abrir o programa.|
+
+### Interface
+Web simplificada em HTML e CSS (PHP + HTML/CSS)
+1. Pretendendo desenhar os objetos da interface de forma geral
+2. Senão, usar comandos HTML/CSS para simplificar a interface
