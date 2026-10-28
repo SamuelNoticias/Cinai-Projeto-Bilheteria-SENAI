@@ -8,9 +8,11 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 4. Permitir o Cancelamento/Estorno de Compras Recentes
 5. Apresentar o Mapa de Poltronas Ocupadas/Livres
 
-### 
+## Processos
+1. Exibição gráfica em HTML e CSS
+   Por meio do HMTL juntamente com o CSS e nosso poderoso Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva
 
-### Exigências de Aplicação
+## Exigências de Aplicação
 | Estrutura     | Mapeamento do Sistema |
 | --------------------- |:-------------:|
 |   Matriz (2D)         |Representação do mapa de  assentos do teatro (Linhas = Fileiras de A a Z, Colunas = Números de poltronas). Cada célula registra se o assento está [Livre, Reservado, VIP].|
@@ -20,7 +22,7 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 |   Busca & Ordenação   |Ordenação do relatório de vendas por valor ou nome do cliente (QuickSort/Bubble). Busca por código do e-ticket/CPF do comprador (Linear/Binária).|
 |   Persistência        |Gravação e leitura da matriz de assentos e bilhetes vendidos em arquivos (.csv ou .txt) para garantir o estado ao fechar e abrir o programa.|
 
-### Interface
+## Interface
 Web simplificada em HTML e CSS (PHP + HTML/CSS)
 1. Pretendendo desenhar os objetos da interface de forma geral
 2. Senão, usar comandos HTML/CSS para simplificar a interface
