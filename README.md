@@ -10,7 +10,15 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 
 ## Processos
 1. Exibição gráfica em HTML e CSS\
-   Por meio do HMTL juntamente com o CSS e nosso poderoso Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva
+   Por meio do HMTL juntamente com o CSS e Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva para executar nosso local host
+2. Controle de Reserva de Ingressos\
+   - Uma fila(FIFO) que ao exceder seu tamanho automaticamente coloca as pessoas na reserva\
+4. Gerenciar a Fila Virtual de Espera para Eventos Concorridos\
+   - Caso alguém desistir de seu ingresso, a primeira pessoa da fila de reservas irá receber uma notificação e ocupará o lugar do desistente\
+6. Permitir o Cancelamento/Estorno de Compras Recentes\
+   - Utilizaremos a moeda Gabriel$ para compra dos ingressos, e caso alguém desista de sua compra terá suas moedas automaticamente estornadas de volta para seu cofre virtual.
+8. Apresentar o Mapa de Poltronas Ocupadas/Livres\
+   - Junto a interface gráfica interativa, será exibida todas as poltronas livres, ocupadas e assentos vips, bem como uma pequena e simplificada sala de cinema..
 
 ## Exigências de Aplicação
 | Estrutura     | Mapeamento do Sistema |
