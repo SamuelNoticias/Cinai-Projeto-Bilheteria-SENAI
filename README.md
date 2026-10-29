@@ -15,7 +15,7 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
    - Uma fila(FIFO) que ao exceder seu tamanho automaticamente coloca as pessoas na reserva\
 4. Gerenciar a Fila Virtual de Espera para Eventos Concorridos\
    - Caso alguém desistir de seu ingresso, a primeira pessoa da fila de reservas irá receber uma notificação e ocupará o lugar do desistente\
-6. Permitir o Cancelamento/Estorno de Compras Recentes\
+6. Permitir o Cancelamento/Estorno de Comprass Recentes\
    - Utilizaremos a moeda Gabriel$ para compra dos ingressos, e caso alguém desista de sua compra terá suas moedas automaticamente estornadas de volta para seu cofre virtual.
 8. Apresentar o Mapa de Poltronas Ocupadas/Livres\
    - Junto a interface gráfica interativa, será exibida todas as poltronas livres, ocupadas e assentos vips, bem como uma pequena e simplificada sala de cinema..
