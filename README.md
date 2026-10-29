@@ -10,7 +10,7 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 
 ## Processos
 1. Exibição gráfica em HTML e CSS\
-   Por meio do HMTL juntamente com o CSS e Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva para executar nosso local host
+   - Por meio do HMTL juntamente com o CSS e Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva para executar nosso local host
 2. Controle de Reserva de Ingressos\
    - Uma fila(FIFO) que ao exceder seu tamanho automaticamente coloca as pessoas na reserva\
 4. Gerenciar a Fila Virtual de Espera para Eventos Concorridos\
