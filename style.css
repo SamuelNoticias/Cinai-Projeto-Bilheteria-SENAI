@@ -1,7 +1,7 @@
 .img-base{
   position: fixed;   /* fica presa na tela, ignora a rolagem */
   inset:0;       /* atalho para top/right/bottom/left = 0 */
-  z-index: 1;     /* número alto = fica por cima de tudo */
+  z-index: 3;     /* número alto = fica por cima de tudo */
   display:flex; /* coloca as duas metades lado a lado */
   width: 100vw;
   height: 25vh;
@@ -9,7 +9,7 @@
 .cortina-direita{
   position: fixed;   /* fica presa na tela, ignora a rolagem */
   inset:0;       /* atalho para top/right/bottom/left = 0 */
-  z-index: 2;     /* número alto = fica por cima de tudo */
+  z-index: 1;     /* número alto = fica por cima de tudo */
   display:flex; /* coloca as duas metades lado a lado */
   width: 5vw;
   height: 100vh;
@@ -18,7 +18,7 @@
 .cortina-esquerda{
   position: fixed;   /* fica presa na tela, ignora a rolagem */
   inset:0;       /* atalho para top/right/bottom/left = 0 */
-  z-index: 2;     /* número alto = fica por cima de tudo */
+  z-index: 1;     /* número alto = fica por cima de tudo */
   display:flex; /* coloca as duas metades lado a lado */
   width: 5vw;
   height: 100vh;
@@ -28,14 +28,14 @@
 {
   position: fixed;   /* fica presa na tela, ignora a rolagem */
   inset:0;      /* atalho para top/right/bottom/left = 0 */
-  z-index: 2;     /* número alto = fica por cima de tudo */
+  z-index: 1;     /* número alto = fica por cima de tudo */
   display:flex; /* coloca as duas metades lado a lado */
   width: 100vw;
   height: 100vh; 
   background-color: transparent; 
 }
 .amarela{
-  z-index: 3;
+  z-index: 2;
   width: 50vw;      
   height: 98vh;     
   background-color: yellow;
