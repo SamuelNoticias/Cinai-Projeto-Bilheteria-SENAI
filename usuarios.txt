@@ -1,0 +1,16 @@
+
+[
+    Nome: cleiton
+    Email: jorge1@gmail.com
+    Senha: 123
+]
+[
+    Nome: cleiton
+    Email: jorge@gmail.com
+    Senha: 123
+]
+[
+    Nome: arlindo
+    Email: arlindo@gmail.com
+    Senha: 123
+]
