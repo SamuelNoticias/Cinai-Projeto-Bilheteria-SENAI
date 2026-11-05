@@ -34,3 +34,11 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 Web simplificada em HTML e CSS (PHP + HTML/CSS)
 1. Pretendendo desenhar os objetos da interface de forma geral
 2. Senão, usar comandos HTML/CSS para simplificar a interface
+
+## Funções de cada integrante:
+1. exibição gráfica e tela de login - Gabriel Gonzaga
+2. Controle de Reserva de Ingressos - Guilherme
+3. Gerenciamento de eventos concorridos - Guilherme
+4. Permitir o estorno e fazer o cofre virtual - Davi
+5. apresentar o mapa de poltronas - Beatriz
+6. UI - Beatriz
