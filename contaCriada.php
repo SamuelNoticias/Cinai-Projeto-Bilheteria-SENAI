@@ -1,4 +1,9 @@
 <?php
+<<<<<<< HEAD
+=======
+ 
+
+>>>>>>> e951cd4c24d54c6cbfa41e73004f16568e2eff1c
     $conteudo = json_encode($_POST, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     //var_dump($conteudo);
     //exit();
