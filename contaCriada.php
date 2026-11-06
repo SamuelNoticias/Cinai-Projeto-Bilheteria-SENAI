@@ -1,13 +1,17 @@
 <?php
-    extract($_POST);
-    $conteudo = "\n[\n    Nome: $nome\n    Email: $email\n    Senha: $senha\n]";
+    $conteudo = json_encode($_POST, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    //var_dump($conteudo);
+    //exit();
+
+
+
     
-    if(str_contains(file_get_contents("usuarios.txt"), $email) == true) {
+    if(str_contains(file_get_contents("usuarios.json"), $_POST["email"]) == true) {
         echo "usuario ja existe";
     }
     else {
         echo "usuario cadastrado";
-        file_put_contents("usuarios.txt", $conteudo, FILE_APPEND);
+        file_put_contents("usuarios.json", $conteudo, FILE_APPEND);
     }
 ?>
 
