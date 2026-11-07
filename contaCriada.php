@@ -1,6 +1,8 @@
 <?php
     include "src\cliente.php";
+    $_POST["id"] = uniqid();
     cadastrarCliente($_POST,"usuarios.json");
+    
 ?>
 
 <!DOCTYPE html>

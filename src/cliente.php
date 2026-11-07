@@ -5,24 +5,26 @@
      */
     function cadastrarCliente(array $dados,string $arquivo)
     {
-        $conteudo = json_encode($dados, JSON_FORCE_OBJECT);
-        $desconteudo = json_decode($dados);
+        $conteudo = json_encode($dados, JSON_PRETTY_PRINT);
         if(str_contains(file_get_contents($arquivo), $dados["email"]) == true) 
-        {
-
-            echo "usuario ja existe";
-        }
+            {
+                echo "usuario ja existe";
+            }
         if(str_contains(file_get_contents($arquivo), $dados["email"]) == false)
-        {
-            echo $desconteudo;
-            file_put_contents($arquivo, $conteudo, FILE_APPEND);
-        }
+            {
+                echo "usuario cadastrado com sucesso";
+                if(str_contains(file_get_contents($arquivo),"]") == true)
+                    {
+                        file_put_contents($arquivo,str_replace("]",",   ",file_get_contents($arquivo)));
+                        file_put_contents($arquivo, $conteudo, FILE_APPEND);
+                        file_put_contents($arquivo,"\n]", FILE_APPEND);
+                    }
+                
+            }
     }
-
-
-    /**
-     * Autenticar sessão de uso do cliente
-     */
+    
+    // Autenticar sessão de uso do cliente
+    
     function logarClietne(){}
 
 

@@ -8,5 +8,5 @@ $plateia = [
 /**
  * 
  */
-function ocuparA
+function ocuparA(){}
 ?>

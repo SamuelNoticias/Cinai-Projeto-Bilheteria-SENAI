@@ -22,15 +22,15 @@
             <form action="contaCriada.php" method="POST">
                 <label for="nome">Nome:</label>
                 <br>
-                <input type="text" name="nome" placeholder="Insira Nome Aqui">
+                <input type="text" name="nome" placeholder="Insira Nome Aqui" required>
                 <br>
                 <label for="email">Email:</label>
                 <br>
-                <input type="email" name="email" placeholder="Insira Email Aqui">
+                <input type="email" name="email" placeholder="Insira Email Aqui" required>
                 <br>
                 <label for="senha">Senha:</label>
                 <br>
-                <input type="password" name="senha" placeholder="Insira Senha Aqui">
+                <input type="password" name="senha" placeholder="Insira Senha Aqui" required>
                 <br>
                 <br>
                 <button type="submit">Enviar</button>
