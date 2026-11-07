@@ -1,23 +1,6 @@
 <?php
-<<<<<<< HEAD
-=======
- 
-
->>>>>>> e951cd4c24d54c6cbfa41e73004f16568e2eff1c
-    $conteudo = json_encode($_POST, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-    //var_dump($conteudo);
-    //exit();
-
-
-
-    
-    if(str_contains(file_get_contents("usuarios.json"), $_POST["email"]) == true) {
-        echo "usuario ja existe";
-    }
-    else {
-        echo "usuario cadastrado";
-        file_put_contents("usuarios.json", $conteudo, FILE_APPEND);
-    }
+    include "src\cliente.php";
+    cadastrarCliente($_POST,"usuarios.json");
 ?>
 
 <!DOCTYPE html>
