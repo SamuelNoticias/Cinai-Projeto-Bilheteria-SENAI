@@ -42,3 +42,36 @@ Web simplificada em HTML e CSS (PHP + HTML/CSS)
 4. Permitir o estorno e fazer o cofre virtual - Davi
 5. apresentar o mapa de poltronas - Beatriz
 6. UI - Beatriz
+
+AEP
+- Cadastrar o Cliente
+- Assentos
+  1. Ocupar Assentos
+  2. Assentos VIP
+  3. Fila
+- Ingressos
+  1. Categoria
+     * Inteira
+     * Meia-entrada
+     * VIP
+  3. Código
+- Financeiro
+  1. Histórico de Compras
+     * Undo
+     * Devolver Ingresso ao mapa de assentos
+  3. Relatório de Vendas
+     * QuickSort
+     * Busca por código
+  5. Conta de Usurário
+- Front-end
+  1. HTML e CSS
+     * Tela de Login
+     * Filmes
+       + Página dos filmes
+       + Página de Assentos e tipagem de Ingressos
+       + Página de pagamento
+     * Usuário
+       + Perfil de usuário
+       + Banco Digital
+       + Histórico de Compras
+     * Relatório de Vendas
