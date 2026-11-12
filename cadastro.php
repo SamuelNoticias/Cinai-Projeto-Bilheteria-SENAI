@@ -1,14 +1,25 @@
 <?php
-    extract($_POST);
-    $conteudo = "\n[\n    Nome: $nome\n    Email: $email\n    Senha: $senha\n]";
+    session_start();
+    $_SESSION["email"] = $_POST["email"];
+    $_SESSION["senha"] = $_POST["senha"];
     
-    if(str_contains(file_get_contents("usuarios.txt"), $email) == true) {
-        echo "usuario ja existe";
+    $teste = json_decode(file_get_contents("usuarios.json"),true);
+
+  
+
+    foreach ($teste as $key => $value) {
+        var_dump($teste["email"]);
+        $indice = array_search($teste["email"], $value);
     }
-    else {
-        echo "usuario cadastrado";
-        file_put_contents("usuarios.txt", $conteudo, FILE_APPEND);
-    }
+
+    var_dump($indice);
+  
+    /*if(str_contains(file_get_contents("usuarios.json"),$_SESSION["email"]) && str_contains(file_get_contents("usuarios.json"),$_SESSION["senha"]))
+        {
+            echo "cleiton";
+        }
+*/
+
 ?>
 
 <!DOCTYPE html>
