@@ -45,8 +45,8 @@ Web simplificada em HTML e CSS (PHP + HTML/CSS)
 
 AEP
 - Cadastrar o Cliente (Gabriel)
-- Assentos
-  1. Ocupar Assentos (Beatriz)
+- Assentos (Beatriz)
+  1. Ocupar Assentos
   2. Assentos VIP
   3. Fila
 - Ingressos
@@ -62,7 +62,7 @@ AEP
   3. Relatório de Vendas
      * QuickSort
      * Busca por código
-  5. Conta de Usurário
+  5. Conta de Usurário 
 - Front-end
   1. HTML e CSS
      * Tela de Login (Gabriel)
