@@ -1,24 +1,34 @@
 <?php
     session_start();
-    $_SESSION["email"] = $_POST["email"];
-    $_SESSION["senha"] = $_POST["senha"];
+    include_once('src/cliente.php');
+
+    $resultado = localizarClientePorEmail($_POST['email']);
     
-    $teste = json_decode(file_get_contents("usuarios.json"),true);
-
-  
-
-    foreach ($teste as $key => $value) {
-        var_dump($teste["email"]);
-        $indice = array_search($teste["email"], $value);
+   
+    if ($resultado['email'] == $_POST["email"] && $resultado['senha'] == $_POST["senha"])
+    {
+        echo "entrou";
+        var_dump($resultado); exit();
     }
 
-    var_dump($indice);
+  
+   
+        //$indice = array_search($teste["email"], $value);
+    //Acessar o array no indice certo
+    /*
+    if ($teste[$indice]['email'] == $_POST["email"] && $teste[$indice]['senha'] == $_POST["senha"])
+    {
+        $_SESSION['nome'] = $teste[1]['nome'];
+    }
+    */
+    
   
     /*if(str_contains(file_get_contents("usuarios.json"),$_SESSION["email"]) && str_contains(file_get_contents("usuarios.json"),$_SESSION["senha"]))
         {
             echo "cleiton";
         }
-*/
+    */
+
 
 ?>
 

@@ -27,5 +27,28 @@
     
     function logarClietne(){}
 
+    /**
+     * 
+     */
+    function buscarPorValor(array $array, string $valorPesquisado, string $chave = 'email'): ?array
+    {
+        foreach($array as $item)
+        {
+            if(isset($item[$chave]) && $item[$chave] === $valorPesquisado){
+                return $item;
+            }
+        }
+        return null;
+    }
+
+    function localizarClientePorEmail(string $email): array|false
+    {
+        $clientes = json_decode(file_get_contents("usuarios.json"),true);
+        $cliente  = buscarPorValor($clientes, $email);
+        if($cliente != null) {
+            return $cliente;
+        }
+        return false;
+    }
 
 ?>
