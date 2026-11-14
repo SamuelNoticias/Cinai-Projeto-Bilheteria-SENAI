@@ -75,3 +75,5 @@ AEP
        + Banco Digital
        + Histórico de Compras
      * Relatório de Vendas
+
+[Figma](https://www.figma.com/design/qLZUkMBiTlBJlkkt8LGjCt/Untitled?node-id=8-39&t=kq32iT1Zf0Zo0PbW-1)
