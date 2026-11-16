@@ -1,3 +1,4 @@
+<!-- tela de criação de conta -->
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,13 +10,6 @@
 </head>
 
 <body>
-    <div class="cortina">
-        <img src="Assets\em_cima-removebg-preview.png" class="img-base" alt="Imagem de fundo">
-    </div>
-    <div class="cortinas">
-        <img src="Assets\esquerda-removebg-preview.png" class="cortina-esquerda" alt="cortina esquerda">
-        <img src="Assets\direita-removebg-preview.png" class="cortina-direita" alt="cortina direita"> 
-    </div>
     <section class="container">
         <div class="amarela">
             <h1>Criar Conta</h1>
@@ -36,6 +30,7 @@
                 <button type="submit">Enviar</button>
 
             </form>
+            <button><a href="index.php">Voltar para tela inicial</a></button>
         </div>
     </section>
 

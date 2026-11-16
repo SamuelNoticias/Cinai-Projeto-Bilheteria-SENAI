@@ -1,3 +1,4 @@
+<!-- tela quando o usuário tenta fazer login -->
 <?php
     session_start();
     include_once('src/cliente.php');
@@ -5,10 +6,18 @@
     $resultado = localizarClientePorEmail($_POST['email']);
     
    
-    if ($resultado['email'] == $_POST["email"] && $resultado['senha'] == $_POST["senha"])
+    if ($resultado['nome'] == $_POST["nome"] && $resultado['email'] == $_POST["email"] && $resultado['senha'] == $_POST["senha"])
     {
-        echo "entrou";
-        var_dump($resultado); exit();
+        echo "entrou ";
+        var_dump($resultado); 
+        exit();
+    }
+    else
+    {
+        echo"<script>
+                alert('Usuário Não Existe!');
+                window.location.href = 'index.php';
+            </script>";
     }
 
   
@@ -43,13 +52,6 @@
 </head>
 
 <body>
-    <div class="cortina">
-        <img src="Assets\em_cima-removebg-preview.png" class="img-base" alt="Imagem de fundo">
-    </div>
-    <div class="cortinas">
-        <img src="Assets\esquerda-removebg-preview.png" class="cortina-esquerda" alt="cortina esquerda">
-        <img src="Assets\direita-removebg-preview.png" class="cortina-direita" alt="cortina direita"> 
-    </div>
     <section class="container">
         <div class="amarela">
             <h1>lugar teste</h1>

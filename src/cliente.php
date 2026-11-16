@@ -6,10 +6,12 @@
     function cadastrarCliente(array $dados,string $arquivo)
     {
         $conteudo = json_encode($dados, JSON_PRETTY_PRINT);
+        //usuario já existe
         if(str_contains(file_get_contents($arquivo), $dados["email"]) == true) 
             {
-                echo "usuario ja existe";
+                return false;
             }
+        // usuario cadastrado com sucesso
         if(str_contains(file_get_contents($arquivo), $dados["email"]) == false)
             {
                 echo "usuario cadastrado com sucesso";

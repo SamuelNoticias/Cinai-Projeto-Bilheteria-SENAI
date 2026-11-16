@@ -1,7 +1,19 @@
+<!-- tela para quando a conta for criada -->
 <?php
     include "src\cliente.php";
     $_POST["id"] = uniqid();
-    cadastrarCliente($_POST,"usuarios.json");
+    if(cadastrarCliente($_POST,"usuarios.json") == false)
+    {
+        echo 
+        "<script>
+            alert('Usuário já existe!');
+            window.location.href = 'index.php';
+        </script>";
+    }
+    else
+    {
+        echo "<script>alert('Conta criada com sucesso!');</script>";
+    }
     
 ?>
 
@@ -16,13 +28,6 @@
 </head>
 
 <body>
-    <div class="cortina">
-        <img src="Assets\em_cima-removebg-preview.png" class="img-base" alt="Imagem de fundo">
-    </div>
-    <div class="cortinas">
-        <img src="Assets\esquerda-removebg-preview.png" class="cortina-esquerda" alt="cortina esquerda">
-        <img src="Assets\direita-removebg-preview.png" class="cortina-direita" alt="cortina direita"> 
-    </div>
     <section class="container">
         <div class="amarela">
             <h1>Conta criada com sucesso!</h1>
