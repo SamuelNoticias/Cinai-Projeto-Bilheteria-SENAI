@@ -2,17 +2,22 @@
 <?php
     include "src\cliente.php";
     $_POST["id"] = uniqid();
-    if(cadastrarCliente($_POST,"usuarios.json") == false)
+    if(cadastrarCliente($_POST,"usuarios.json") == true)
     {
+       
         echo 
         "<script>
-            alert('Usuário já existe!');
+            alert('Usuario cadastrado');
             window.location.href = 'index.php';
         </script>";
     }
     else
     {
-        echo "<script>alert('Conta criada com sucesso!');</script>";
+        echo 
+        "<script>
+            alert('Usuário já existe!');
+            window.location.href = 'criarConta.php';
+        </script>";
     }
     
 ?>

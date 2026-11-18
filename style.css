@@ -9,6 +9,7 @@ body{
   justify-content: center;
 }
 .amarela{
+  size: 10vw;
   z-index: 2;
   width: 25vw;      
   height: 45vh;     

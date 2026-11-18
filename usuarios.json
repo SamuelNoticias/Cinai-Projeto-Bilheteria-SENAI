@@ -23,4 +23,22 @@
     "senha": "123",
     "id": "6af963c58575f"
 }
+,   {
+    "nome": "Davi",
+    "email": "davi@gmail.com",
+    "senha": "12345",
+    "id": "6afe2e378cc22"
+}
+,   {
+    "nome": "kian",
+    "email": "kian@gmail.com",
+    "senha": "12345",
+    "id": "6afe2e5f2b1a2"
+}
+,   {
+    "nome": "rani",
+    "email": "rani@gmail.com",
+    "senha": "1234",
+    "id": "6afe38e49a338"
+}
 ]

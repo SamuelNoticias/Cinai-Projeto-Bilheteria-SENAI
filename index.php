@@ -29,7 +29,7 @@
                 <br>
                 <button type="submit">Enviar</button>
             </form>
-            <form action="criarConta.php" method="post">
+            <form action="criarConta.php" method="POST">
                 <button type="submit">Criar Conta</button>
             </form>
         </div>

@@ -6,23 +6,23 @@
     function cadastrarCliente(array $dados,string $arquivo)
     {
         $conteudo = json_encode($dados, JSON_PRETTY_PRINT);
-        //usuario já existe
-        if(str_contains(file_get_contents($arquivo), $dados["email"]) == true) 
-            {
-                return false;
-            }
+        //usuario já existe       
+        if(str_contains(file_get_contents($arquivo), $dados["email"])) 
+        {
+            return false;
+        } 
         // usuario cadastrado com sucesso
-        if(str_contains(file_get_contents($arquivo), $dados["email"]) == false)
+        else
+        {            
+            echo "usuario cadastrado com sucesso";
+            if(str_contains(file_get_contents($arquivo),"]") == true)
             {
-                echo "usuario cadastrado com sucesso";
-                if(str_contains(file_get_contents($arquivo),"]") == true)
-                    {
-                        file_put_contents($arquivo,str_replace("]",",   ",file_get_contents($arquivo)));
-                        file_put_contents($arquivo, $conteudo, FILE_APPEND);
-                        file_put_contents($arquivo,"\n]", FILE_APPEND);
-                    }
-                
+                file_put_contents($arquivo,str_replace("]",",   ",file_get_contents($arquivo)));
+                file_put_contents($arquivo, $conteudo, FILE_APPEND);
+                file_put_contents($arquivo,"\n]", FILE_APPEND);
             }
+            return true;
+        }
     }
     
     // Autenticar sessão de uso do cliente
