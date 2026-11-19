@@ -44,7 +44,7 @@ Web simplificada em HTML e CSS (PHP + HTML/CSS)
 6. UI - Beatriz
 
 AEP
-- Cadastrar o Cliente (Gabriel)
+- ~Cadastrar o Cliente (Gabriel)~
 - Assentos (Beatriz)
   1. Ocupar Assentos
   2. Assentos VIP
