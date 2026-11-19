@@ -1,6 +1,7 @@
 <?php
     $linha;
     $coluna;
+    $GLOBALS['opcao'];
     $GLOBALS['plateia'] = [
         "Inteira" => [
                 [0,0,0,0,0], //linha [0]
@@ -26,7 +27,7 @@
         global $linha;
         global $coluna;
 
-        $linha = (int) fgets(STDIN);
+        $linha  =(int) fgets(STDIN);
         $coluna =(int) fgets(STDIN);        
         
         $GLOBALS['plateia']["Inteira"][$linha][$coluna] = 1;
@@ -64,16 +65,25 @@
      *  Permitir a exclusão de assentos e retornar os assentos excluídos
      */
     function desocuparAssentos(){
-        echo "Exclua um assento: \n";        
+        echo "Exclua um assento: \n";
         global $linha;
         global $coluna;
 
         $linha = (int) fgets(STDIN);
-        $coluna =(int) fgets(STDIN);        
-        
-        $GLOBALS['plateia'][$linha][$coluna] = 0;
+        $coluna =(int) fgets(STDIN); 
 
-       return  $GLOBALS['plateia'][$linha][$coluna];
+        if ($GLOBALS['opcao']=1){
+            $GLOBALS['plateia']["Inteira"][$linha][$coluna] = 0;
+        }
+
+        if ($GLOBALS['opcao']=2){
+            $GLOBALS['plateia']["Meia-Entrada"][$linha][$coluna] = 0;
+        }
+
+        if ($GLOBALS['opcao']=3){
+            $GLOBALS['plateia']["VIP"][$linha][$coluna] = 0;
+        }
+
     };
 
     /**
@@ -116,9 +126,9 @@
         echo "2. Meia-Entrada\n";
         echo "3. VIP\n";
 
-        $opcao = fgets(STDIN);
+        $GLOBALS['opcao'] = fgets(STDIN);
         
-        switch ($opcao){
+        switch ($GLOBALS['opcao']){
             case 1:
                 ocuparAssentosInteiro();
             break;
@@ -133,6 +143,8 @@
     };
     mostrarAssentos();
     categoriaIngressos();
+    mostrarAssentos();
+    desocuparAssentos();
     mostrarAssentos();
 
 ?>
