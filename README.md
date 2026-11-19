@@ -44,16 +44,16 @@ Web simplificada em HTML e CSS (PHP + HTML/CSS)
 6. UI - Beatriz
 
 AEP
-- ~Cadastrar o Cliente (Gabriel)~
-- ~Assentos (Beatriz)~
-  1. ~~Ocupar Assentos~~
-  2. ~~Assentos VIP~~
-  3. ~~Fila~~
-- Ingressos
-  1. ~~Categoria (Beatriz)~~
-     * ~~Inteira~~
-     * ~~Meia-entrada~~
-     * ~~VIP~~
+~~- Cadastrar o Cliente (Gabriel)~~
+~~- Assentos (Beatriz)~~
+  ~~1. Ocupar Assentos~~
+  ~~2. Assentos VIP~~
+  ~~3. Fila~~
+~~- Ingressos~~
+  ~~1. Categoria (Beatriz)~~
+     ~~* Inteira~~
+     ~~* Meia-entrada~~
+     ~~* VIP~~
   3. Código
 - Financeiro
   1. Histórico de Compras
@@ -65,7 +65,7 @@ AEP
   5. Conta de Usurário 
 - Front-end
   1. HTML e CSS
-     * ~~Tela de Login (Gabriel)~~
+     ~~* Tela de Login (Gabriel)~~
      * Filmes
        + Página dos filmes
        + Página de Assentos e tipagem de Ingressos (Beatriz)
