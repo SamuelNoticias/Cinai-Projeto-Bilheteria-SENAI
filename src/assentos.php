@@ -141,10 +141,5 @@
 
         };
     };
-    mostrarAssentos();
-    categoriaIngressos();
-    mostrarAssentos();
-    desocuparAssentos();
-    mostrarAssentos();
 
 ?>
