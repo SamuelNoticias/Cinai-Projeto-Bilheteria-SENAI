@@ -35,3 +35,21 @@ if ($contas[$indiceEncontrado]['Senha'] == $senhadigitadanoform) {
     echo "Não autorizaod";
 }
 
+
+
+/*  
+    <section class="emCartaz">
+        <h1 class="titulo">Em Cartaz</h1>
+        <div id="carrocelEmCartaz">
+            <div class="filme">
+                <h1>teste</h1>
+            </div>
+            <div class="filme">
+                <h1>teste</h1>
+            </div>
+            <div class="filme">
+                <h1>teste</h1>
+            </div>
+        </div>
+    </section>
+*/
