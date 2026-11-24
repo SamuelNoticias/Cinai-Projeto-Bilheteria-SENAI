@@ -64,13 +64,13 @@ AEP
      * Busca por código
   5. Conta de Usurário 
 - Front-end
-  1. HTML e CSS
+  1. HTML e CSS (Gabriel)
      * ~~Tela de Login (Gabriel)~~
      * Filmes
        + Página dos filmes
        + Página de Assentos e tipagem de Ingressos (Beatriz)
        + Página de pagamento
-     * Usuário
+     * Usuário (Gabriel)
        + Perfil de usuário
        + Banco Digital
        + Histórico de Compras
