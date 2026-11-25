@@ -56,7 +56,7 @@ AEP
      * ~~VIP~~
   2. Código
 - Financeiro
-  1. Histórico de Compras
+  1. Histórico de Compras (Gabriel)
      * Undo
      * Devolver Ingresso ao mapa de assentos
   3. Relatório de Vendas
@@ -68,7 +68,7 @@ AEP
      * ~~Tela de Login (Gabriel)~~
      * Filmes
        + Página dos filmes
-       + Página de Assentos e tipagem de Ingressos (Beatriz)
+       + Página de Assentos e tipagem de Ingressos
        + Página de pagamento
      * Usuário (Gabriel)
        + Perfil de usuário
