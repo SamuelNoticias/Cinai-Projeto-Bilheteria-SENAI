@@ -9,9 +9,9 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 5. Apresentar o Mapa de Poltronas Ocupadas/Livres
 
 ## Processos
-1. Exibição gráfica em HTML e CSS - Gabriel\
-   - Por meio do HMTL juntamente com o CSS e Krita, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva para executar nosso local host
-2. Controle de Reserva de Ingressos - Guilherme\
+1. Exibição gráfica em HTML e CSS\
+   - Por meio do HMTL juntamente com o CSS e Figma, criaremos uma interface gráfica de fácil entendimento intuitivo e responsiva para executar nosso local host
+2. Controle de Reserva de Ingressos\
    - Uma fila(FIFO) que ao exceder seu tamanho automaticamente coloca as pessoas na reserva\
 4. Gerenciar a Fila Virtual de Espera para Eventos Concorridos - Beatriz\
    - Caso alguém desistir de seu ingresso, a primeira pessoa da fila de reservas ocupará o lugar do desistente\
@@ -34,3 +34,46 @@ Proposta 6: Sistema de Bilheteria e Mapeamento de Assento.
 Web simplificada em HTML e CSS (PHP + HTML/CSS)
 1. Pretendendo desenhar os objetos da interface de forma geral
 2. Senão, usar comandos HTML/CSS para simplificar a interface
+
+## Funções de cada integrante:
+1. exibição gráfica e tela de login - Gabriel Gonzaga
+2. Controle de Reserva de Ingressos - Guilherme
+3. Gerenciamento de eventos concorridos - Guilherme
+4. Permitir o estorno e fazer o cofre virtual - Davi
+5. apresentar o mapa de poltronas - Beatriz
+6. UI - Beatriz
+
+AEP
+- ~~Cadastrar o Cliente (Gabriel)~~
+- ~~Assentos (Beatriz)~~
+  1. ~~Ocupar Assentos~~
+  2. ~~Assentos VIP~~
+  3. ~~Fila~~
+- ~~Ingressos~~
+  1. ~~Categoria (Beatriz)~~
+     * ~~Inteira~~
+     * ~~Meia-entrada~~
+     * ~~VIP~~
+  2. Código
+- Financeiro
+  1. Histórico de Compras (Gabriel)
+     * Undo
+     * Devolver Ingresso ao mapa de assentos
+  3. Relatório de Vendas
+     * QuickSort
+     * Busca por código
+  5. Conta de Usurário 
+- Front-end
+  1. HTML e CSS (Gabriel)
+     * ~~Tela de Login (Gabriel)~~
+     * Filmes
+       + Página dos filmes
+       + Página de Assentos e tipagem de Ingressos
+       + Página de pagamento
+     * Usuário (Gabriel)
+       + Perfil de usuário
+       + Banco Digital
+       + Histórico de Compras
+     * Relatório de Vendas
+
+[Figma](https://www.figma.com/design/qLZUkMBiTlBJlkkt8LGjCt/Untitled?node-id=8-39&t=kq32iT1Zf0Zo0PbW-1)
