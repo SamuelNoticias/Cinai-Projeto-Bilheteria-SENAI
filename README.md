@@ -56,14 +56,14 @@ AEP
      * ~~VIP~~
   2. Código
 - Financeiro
-  1. Histórico de Compras (Gabriel)
+  1. Histórico de Compras (Beatriz)
      * Undo
      * Devolver Ingresso ao mapa de assentos
-  3. Relatório de Vendas
+  3. Relatório de Vendas (Beatriz)
      * QuickSort
      * Busca por código
   5. Conta de Usurário 
-- Front-end
+- Front-end (Gabriel)
   1. HTML e CSS (Gabriel)
      * ~~Tela de Login (Gabriel)~~
      * Filmes
