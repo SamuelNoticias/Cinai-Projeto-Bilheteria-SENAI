@@ -1,7 +1,7 @@
 <?php
     $linha;
     $coluna;
-    $GLOBALS['opcao'];
+    $GLOBALS['opcao'] = 0;
     $GLOBALS['plateia'] = [
         "Inteira" => [
                 [0,0,0,0,0], //linha [0]
@@ -141,5 +141,9 @@
 
         };
     };
+
+    mostrarAssentos();
+    categoriaIngressos();
+    mostrarAssentos();
 
 ?>

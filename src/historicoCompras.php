@@ -15,8 +15,13 @@ function devolucaoIngresso(){}
 function devolucaoDinheiro(){}
 
 // Registrar a compra dos ingressos, retorna ingressos comprados para pagina de historico
-function registro(){}
+function registro(){
+   in_array(1,$GLOBALS['plateia']['Inteira'],true);
+    echo "Registro feito com sucesso";
+}
 
 // mostra lista de Ingressos comprados
 function listaIngressos(){}
+
+registro();
 ?>
