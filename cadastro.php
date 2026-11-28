@@ -17,7 +17,7 @@
         echo"<script>
                 alert('Usuário Não Existe!');
                 window.location.href = 'index.php';
-            </script>";
+            </script>"; 
     }
 
 ?>
@@ -62,7 +62,9 @@
     <button class="btn prev" type="button">&#10094;</button>
     <div id="carrocelEmCartaz">
       <a href="filme1.html" class="filme">
-        <h2>Filme 1</h2>
+        <div class="divImagem">
+          <img class="inmage" src="Assets\banners filmes\OIP.webp" alt="">
+        </div>
       </a>
       <a href="filme2.html" class="filme">
         <h2>Filme 2</h2>

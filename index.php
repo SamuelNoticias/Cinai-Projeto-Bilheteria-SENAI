@@ -12,24 +12,24 @@
 <body>
     <section class="container">
         <div class="amarela">
-            <h1>Entrar:</h1>
-            <form action="cadastro.php" method="POST">
+            <h1 class="dentro">Entrar:</h1>
+            <form class="formulario" action="cadastro.php" method="POST">
                 <label for="nome">Nome:</label>
-                <br>
+
                 <input type="text" name="nome" placeholder="Insira Nome Aqui">
-                <br>
+
                 <label for="email">Email:</label>
-                <br>
+
                 <input type="email" name="email" placeholder="Insira Email Aqui">
-                <br>
+
                 <label for="senha">Senha:</label>
-                <br>
+
                 <input type="password" name="senha" placeholder="Insira Senha Aqui">
-                <br>
+
                 <br>
                 <button type="submit">Enviar</button>
             </form>
-            <form action="criarConta.php" method="POST">
+            <form class="formulario" action="criarConta.php" method="POST">
                 <button type="submit">Criar Conta</button>
             </form>
         </div>
